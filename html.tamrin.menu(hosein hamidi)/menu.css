@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+    background: gray;
+    width: 200px;
+    border: solid red;
+    text-align: center;
+    transition: color 0.5s linear, width 2s, background 1.5s linear, transform 1s ease-in-out 0s;;
+}
+
+
+h1:hover{
+    color: red;
+    width: 400px;
+    background: green;
+    text-align: center;
+    transform: scale(1.5,1.6);
+}
